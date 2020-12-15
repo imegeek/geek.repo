@@ -7,7 +7,7 @@ T=$"/data/data/com.termux/files/usr/share/gnupg"
 mkdir -p $PREFIX/tmp
 if [ ! -d "$T" ];then
 echo -e "\nInstalling dependencies..."
-apt update ; apt install gnupg &> /dev/null
+apt update ; apt install gnupg -y
 fi
 
 echo -e "\nRetrieving information..."
