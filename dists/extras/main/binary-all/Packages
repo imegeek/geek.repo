@@ -1,0 +1,89 @@
+Package: androfetch
+Architecture: all
+Version: 3.08
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 16
+Depends: ruby
+Filename: dists/extras/main/binary-all/androfetch.deb
+Size: 9604
+MD5sum: c1deb17429e11537269df64a290bae3b
+SHA1: 25c96cd1d6cac7fb1b0d724dd80922d1f9643b6f
+SHA256: d0d798627001b11a10fc55d0032ff457cdf390ce6864914570de0d03f359dc50
+SHA512: 47f017b46c191556a44d23af12625a1cf556fc0757780433ab8b50d1c89b0928042c32e35d9a8037860bd39ff6f4577edb6210f45f98a0718b2d781726e99aa4
+Homepage: https://github.com/abhackerofficial
+Description: androfetch displays information about your android system.
+
+Package: ascii-banner
+Architecture: all
+Version: 1.6
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 12
+Depends: wget, ruby, figlet
+Filename: dists/extras/main/binary-all/ascii-banner.deb
+Size: 3340
+MD5sum: ede77fa515e3223608f2725c1007eb91
+SHA1: 1430dc5f6b97d61d4dc642c422c1f7e1a7a4c258
+SHA256: de6506ffcbf8b951a80ebce1f8f41649ddbef27f2357ca4df094de446f070dfc
+SHA512: 27e62ae91bcdcb28b4488488f39269a7ac85608bc536dc8c19ce324b704eb87d9ffac274710957593ccec688c66c72ec569ab9a2f6fa2d28a1c0d647f70ffb1b
+Homepage: https://github.com/abhackerofficial
+Description: A ascii banner generator for termux.
+
+Package: msvenom
+Architecture: all
+Version: 4.06
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 8
+Depends: unstable-repo, metasploit
+Filename: dists/extras/main/binary-all/msvenom.deb
+Size: 2488
+MD5sum: 151d2ff4b2b761122f217709066943b7
+SHA1: ecf2ab01c66480cbc31d4e0642face77a2d3ac06
+SHA256: 6b74fbdd638f76a82e0ceb6753d617a01d424777a1c4f8df9129dcfeea14a4f7
+SHA512: 2f2f7c2283dfbd1260a101148c0424e60d670926d70a9e1f2f7dcee3af232e632cbd53b9139f3814703acbb5c0eca41354e33a2254cefdb5a959e489da5c8497
+Homepage: https://github.com/abhackerofficial
+Description: Payload generator program for android platform.
+
+Package: ngrok-server
+Architecture: all
+Version: 2.16
+Maintainer: ABHacker ( @abhackerofficial )
+Installed-Size: 21
+Depends: curl
+Filename: dists/extras/main/binary-all/ngrok-server.deb
+Size: 15032
+MD5sum: 39d43b3eaf27475517e947eb6aa74211
+SHA1: a2049af817c08981688329db0163f1d8827159e6
+SHA256: 8f9e68dd272bd25ac79abdbdcfcce549305cb89f21792c806057db14a7272e9d
+SHA512: 7b1ad6c675da14e8f53cbcc9ca5009410ed1220e0b9c6b7db052142f709ac10a6de1a9fd130342b0927054167ee18ce41ccd68c282d7d5e999351f1703007c1a
+Homepage: https://github.com/abhackerofficial
+Description: This tool is usually made for Ngrok, so you can make ngrok backgroud usage without turn on your Hotspot.
+
+Package: osmux
+Architecture: all
+Version: 1.20
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 32
+Depends: wget
+Filename: dists/extras/main/binary-all/osmux.deb
+Size: 25420
+MD5sum: 1493d844153e787ee1a9c898af3fd016
+SHA1: 6a0b0819a534ce93fc9da6e9d34889ce179b437c
+SHA256: 7c9a0fbef1a43e575f02bf66530ae88291be99821c3ff7b642253e7d64913ab1
+SHA512: 05fc6aa2dcee78c3d66092839d389c43d27ea3fb370df03e0a591ea14a7548c0dd9aee41cfe375fa9c6c257714860cd5e45bf4e608d598135886fd3ff47734fa
+Homepage: https://github.com/abhackerofficial
+Description: osmux is a installer of types of linux distro.
+
+Package: termux-backup
+Architecture: all
+Version: 1.2
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 10
+Filename: dists/extras/main/binary-all/termux-backup.deb
+Size: 4228
+MD5sum: fbb04e61a2fec7c5269e8db640adc695
+SHA1: af1a9b66cac877556ace958026d531fa6e5b40f7
+SHA256: 2d113409edb4a592faf0e526f637fccad3aa3a5f75faba09d217e4901813c4d1
+SHA512: 8efc15dae7f70715de0cd859ee7fc224e221287a0002d31d21013433f1215aeb320c9128f560a30cd71a028e1c66a9622b38ec9633c59c1f509cd53839cf48cd
+Homepage: https://github.com/abhackerofficial
+Description: termux-backup to backing up and restoring your Termux data..
+

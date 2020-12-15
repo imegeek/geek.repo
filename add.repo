@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+F=$"$PREFIX/etc/apt/trusted.gpg"
+R=$"$PREFIX/etc/apt/sources.list.d/abhacker.repo.list"
+T=$"/data/data/com.termux/files/usr/share/gnupg"
+
+mkdir -p $PREFIX/tmp
+if [ ! -d "$T" ];then
+echo -e "\nInstalling dependencies..."
+apt update ; apt install gnupg &> /dev/null
+fi
+
+echo -e "\nRetrieving information..."
+sleep 0.3
+grep -q "abhackerofficial@gmail.com" $F &> /dev/null
+if [ $? -eq 0 ]; then
+sleep 0.4
+echo "Public GPG Key Already exists..."
+else
+echo -e "Adding Public GPG Key..."
+cd $PREFIX/tmp
+curl --progress-bar -L --fail --retry 4 -O https://abhackerofficial.github.io/abhacker.repo/abhacker.repo.key
+apt-key add abhacker.repo.key
+fi
+
+if [ -f "$R" ];then
+sleep 0.5
+echo "ABHacker's Repository Already exists..."
+else
+echo "Adding ABHacker's Repository..."
+printf "deb https://abhackerofficial.github.io/abhacker.repo/ extras main" > $R
+sleep 0.6
+echo "OK"
+fi
+
+sleep 0.7
+echo -e "\nUpdating Termux emulator..."
+apt-get update
+echo -e "Install package  : apt install <pkg> ..."
+echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo"
