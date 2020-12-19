@@ -5,11 +5,11 @@ Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 16
 Depends: ruby
 Filename: dists/extras/main/binary-all/androfetch.deb
-Size: 9604
-MD5sum: c1deb17429e11537269df64a290bae3b
-SHA1: 25c96cd1d6cac7fb1b0d724dd80922d1f9643b6f
-SHA256: d0d798627001b11a10fc55d0032ff457cdf390ce6864914570de0d03f359dc50
-SHA512: 47f017b46c191556a44d23af12625a1cf556fc0757780433ab8b50d1c89b0928042c32e35d9a8037860bd39ff6f4577edb6210f45f98a0718b2d781726e99aa4
+Size: 10816
+MD5sum: 2c76c19c5d3d2c52a11914a6e8bd920b
+SHA1: 15ef2190614e608ff24db5a34a4d4245573d165c
+SHA256: 5251f17bf9583e373337247d53934b695690264895962076ef779dc9edc1f810
+SHA512: 79dd7a9e62273f8668594c908549ae44feb7a2b0c89034975310bc0abaa4c76dc5e54ff8e23ef10310aeb83f3d4b9d39d3f00a331da4a789efcb20e85c2b5e1a
 Homepage: https://github.com/abhackerofficial
 Description: androfetch displays information about your android system.
 
@@ -50,11 +50,11 @@ Maintainer: ABHacker ( @abhackerofficial )
 Installed-Size: 21
 Depends: curl
 Filename: dists/extras/main/binary-all/ngrok-server.deb
-Size: 14424
-MD5sum: 44c2654a901374c65ea0b629f3b62094
-SHA1: c81a1d837e15916cfc3df0421ed6dff2ce3f10e4
-SHA256: 34b6c26992b764b2d20d5478b1f865de4fd91dc05c809239991c5a875fc15945
-SHA512: d8112052d03a5ea583fa1fdcc5c7b3a69b7ef94e443fb1e7b2e1d8d7392e5e02e51a5ca47efdf1477baf623a8ed36a9d4fdfa5731c639cddbb4dd70147728e30
+Size: 13696
+MD5sum: b549ae0e1ffdd09562ea4ca62790283d
+SHA1: ae64a62254bcdccf8d313352c395af03426268be
+SHA256: 0b24882512fa0415ec02a2ad4957dbe618f8339b3110104ac80de2745c8caf66
+SHA512: ab1be83575afc80ee542f38563a0eb0bfe7f8d06160687cd5eb36091f27abd5431acb3ee4cb1222eb757f25ccb66343cb0985d1b02178f23ecde1d5c1b6f9763
 Homepage: https://github.com/abhackerofficial
 Description: This tool is usually made for Ngrok, so you can make ngrok backgroud usage without turn on your Hotspot.
 
@@ -65,11 +65,11 @@ Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 32
 Depends: wget
 Filename: dists/extras/main/binary-all/osmux.deb
-Size: 25420
-MD5sum: 1493d844153e787ee1a9c898af3fd016
-SHA1: 6a0b0819a534ce93fc9da6e9d34889ce179b437c
-SHA256: 7c9a0fbef1a43e575f02bf66530ae88291be99821c3ff7b642253e7d64913ab1
-SHA512: 05fc6aa2dcee78c3d66092839d389c43d27ea3fb370df03e0a591ea14a7548c0dd9aee41cfe375fa9c6c257714860cd5e45bf4e608d598135886fd3ff47734fa
+Size: 27912
+MD5sum: 6d4cbcd8dbc0bcd746998d28b7b9e709
+SHA1: b583d057d11ae32160f673d7ff5df432e02737e3
+SHA256: 4c29c3fdde78ad26a4d1ac6302666d94516ca3a2e25a528351849b2fcda350d5
+SHA512: 46234ad2136ab51b86810b7f8cb96ed98c3ffa15824a2fa55d84587075fb177ada750872c3054261d766046adabb86a58ca022ef34305fb76e83d425cf3ccdb3
 Homepage: https://github.com/abhackerofficial
 Description: osmux is a installer of types of linux distro.
 
