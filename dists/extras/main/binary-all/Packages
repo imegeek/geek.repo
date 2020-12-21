@@ -18,13 +18,13 @@ Architecture: all
 Version: 1.6
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 12
-Depends: wget, ruby, figlet
+Depends: wget, ruby, figlet, unrar
 Filename: dists/extras/main/binary-all/ascii-banner.deb
-Size: 3340
-MD5sum: ede77fa515e3223608f2725c1007eb91
-SHA1: 1430dc5f6b97d61d4dc642c422c1f7e1a7a4c258
-SHA256: de6506ffcbf8b951a80ebce1f8f41649ddbef27f2357ca4df094de446f070dfc
-SHA512: 27e62ae91bcdcb28b4488488f39269a7ac85608bc536dc8c19ce324b704eb87d9ffac274710957593ccec688c66c72ec569ab9a2f6fa2d28a1c0d647f70ffb1b
+Size: 3352
+MD5sum: 5b84cb94401118a80c7c4be8f1527323
+SHA1: dc6624f4be2e24bea2a1b1e5157656f40f3e1c70
+SHA256: 4f712f5b7a394f919322abd3f46ddb0bb4772396ccc1df464c2873d65987d023
+SHA512: 2ae224f73a621996fdbca4b85802a6ed3aee8d355a61275b0a2bbfb443b10bf22a31b5582c2479df7023b25da70233025cbcf2ea667bc89a45a814c8a72074c3
 Homepage: https://github.com/abhackerofficial
 Description: A ascii banner generator for termux.
 
@@ -86,4 +86,19 @@ SHA256: 2d113409edb4a592faf0e526f637fccad3aa3a5f75faba09d217e4901813c4d1
 SHA512: 8efc15dae7f70715de0cd859ee7fc224e221287a0002d31d21013433f1215aeb320c9128f560a30cd71a028e1c66a9622b38ec9633c59c1f509cd53839cf48cd
 Homepage: https://github.com/abhackerofficial
 Description: termux-backup to backing up and restoring your Termux data..
+
+Package: theme-engine
+Architecture: all
+Version: 4.0
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 10000
+Depends: zsh, wget, unrar
+Filename: dists/extras/main/binary-all/theme-engine.deb
+Size: 1484
+MD5sum: e359057fbb007a8c14a6fac3e7326b38
+SHA1: a87d2e0411bc403584ecdb7ee55366c6e937e646
+SHA256: 816ceba1ae262957dc8d694a9304396195dec71acec46fd1c4421fd6f20e2f61
+SHA512: 9eae9b80dec3e1392dd72146eda2b198e2fdce6ad19a705b791e98c36f73ab7631f9592de1308a13b91aefb03ec19edf3995edddb65077bb9bc12b278c1daf86
+Homepage: https://github.com/abhackerofficial
+Description: Made by abhackerofficial.
 
