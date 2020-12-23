@@ -92,13 +92,13 @@ Architecture: all
 Version: 4.0
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 10000
-Depends: zsh, wget, unrar
+Depends: git, zsh, wget, unrar
 Filename: dists/extras/main/binary-all/theme-engine.deb
-Size: 1484
-MD5sum: e359057fbb007a8c14a6fac3e7326b38
-SHA1: a87d2e0411bc403584ecdb7ee55366c6e937e646
-SHA256: 816ceba1ae262957dc8d694a9304396195dec71acec46fd1c4421fd6f20e2f61
-SHA512: 9eae9b80dec3e1392dd72146eda2b198e2fdce6ad19a705b791e98c36f73ab7631f9592de1308a13b91aefb03ec19edf3995edddb65077bb9bc12b278c1daf86
+Size: 1564
+MD5sum: 8eab62091e6180f3c34dda4b730a0669
+SHA1: 2fb675c01ffdc9a2adbdb2855941cd5b91289fd7
+SHA256: 3fb53d5a8876aef582b860a6e804f47fd9f35df2eb6bf0d7937869c2cf6e5d3f
+SHA512: a3041370fc2a17f2c69fe261f729622f2ea16f4117ebf714af08f31d30ce68f209c2bb74757cde6b0fc8bf9fdf8ad2bc7cecd59e42311a7a862180ad09b79096
 Homepage: https://github.com/abhackerofficial
-Description: Made by abhackerofficial.
+Description: Theme-Engine is usually made for modification & customization, so you can make trunks even more Colourful and better your Termux.
 
