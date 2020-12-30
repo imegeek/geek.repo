@@ -1,15 +1,15 @@
 Package: androfetch
 Architecture: all
-Version: 3.08
+Version: 3.12
 Maintainer: ABHacker Official <abhackerofficial>
-Installed-Size: 16
+Installed-Size: 20
 Depends: ruby
 Filename: dists/extras/main/binary-all/androfetch.deb
-Size: 10816
-MD5sum: 2c76c19c5d3d2c52a11914a6e8bd920b
-SHA1: 15ef2190614e608ff24db5a34a4d4245573d165c
-SHA256: 5251f17bf9583e373337247d53934b695690264895962076ef779dc9edc1f810
-SHA512: 79dd7a9e62273f8668594c908549ae44feb7a2b0c89034975310bc0abaa4c76dc5e54ff8e23ef10310aeb83f3d4b9d39d3f00a331da4a789efcb20e85c2b5e1a
+Size: 10632
+MD5sum: ff114a487d7b3f84f0628af743ed30a1
+SHA1: fe91202bba8b0b91b919c5bcec53d75bbe81e850
+SHA256: ac7008b96abd703a8f9135232e56a95b65d61efcb83485e8b2d4e2a7a9cb6ee2
+SHA512: cf0111653c67f0e7bc9fbb72cc8102ee5bb120c64287e1f7b9544f596cb2a76bdeee526a4dbcfa84e0d488e644d6fc2b5118d90bfc12c41dc19471a7be0c872c
 Homepage: https://github.com/abhackerofficial
 Description: androfetch displays information about your android system.
 
