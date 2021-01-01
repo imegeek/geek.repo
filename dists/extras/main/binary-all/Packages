@@ -28,6 +28,21 @@ SHA512: 2ae224f73a621996fdbca4b85802a6ed3aee8d355a61275b0a2bbfb443b10bf22a31b558
 Homepage: https://github.com/abhackerofficial
 Description: A ascii banner generator for termux.
 
+Package: get-secure
+Architecture: all
+Version: 1.22
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 16
+Depends: openssl-tool
+Filename: dists/extras/main/binary-all/get-secure.deb
+Size: 9700
+MD5sum: c3420d0beae1cec8cdd5684b8ebc15c9
+SHA1: 0ebc23c4ebabb2f2e1df248af88411f53cccde05
+SHA256: 6c20e53638f745d4969588cb3c136533f038c1b47211e90dc0f79144f16cfa06
+SHA512: 306155f3e5d162ccfc68de247e569db2069d90900cd419825c6a1f1f51a37111c688e26693d13ac3f38842c5e3e90e3f3730842e82379e96faf9f8f48cf37d2d
+Homepage: https://github.com/abhackerofficial
+Description: A powerful security tool for your personal use and data, strong passwords.
+
 Package: msvenom
 Architecture: all
 Version: 4.06
