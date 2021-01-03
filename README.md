@@ -3,9 +3,9 @@ The Termux repository of abhackerofficial.
 
 > Add ABHacker's Repository via Command :
 
-| Method    | Command                                                        |
-|:----------|:---------------------------------------------------------------|
-| **curl**  | `bash -c "$(curl -fsSL https://bit.do/abhacker-add-repo)")"`   |
+| Method    | Command                                                     |
+|:----------|:------------------------------------------------------------|
+| **curl**  | `bash -c "$(curl -fsSL https://bit.do/abhacker-add-repo)"`  |
 
 > Available Package lists :
 
