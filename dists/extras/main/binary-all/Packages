@@ -43,6 +43,21 @@ SHA512: 306155f3e5d162ccfc68de247e569db2069d90900cd419825c6a1f1f51a37111c688e266
 Homepage: https://github.com/abhackerofficial
 Description: A powerful security tool for your personal use and data, strong passwords.
 
+Package: metasploit
+Architecture: all
+Version: 5.0.88
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Installed-Size: 48
+Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git, libffi, libgmp, libiconv, libpcap, libsqlite, libtool, libxml2, libxslt, make, ncurses, ncurses-utils, openssl, pkg-config, postgresql, readline, resolv-conf, ruby (>= 2.7.0), tar, termux-elf-cleaner, termux-tools, unzip, wget, zip, zlib
+Filename: dists/extras/main/binary-all/metasploit.deb
+Size: 2804
+MD5sum: f503f83bc1a0b6b7b68dff28b528132b
+SHA1: 74a152b4d9236ce8bcfff3306bce8229c1286b21
+SHA256: 6850b3415e3bc2f209bab4b2320a981930aee65b17c7e2c7c9abba9d59b801d5
+SHA512: 1c1e691a86664ae7a46a5616d070058bcbd42779c86dae36dc76fbbc99e34091b27f228d5e6d15af617787398bc76615bef322222a49f0f3dfc917a03eaf7714
+Homepage: https://www.metasploit.com/
+Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
+
 Package: msvenom
 Architecture: all
 Version: 4.06
