@@ -5,7 +5,7 @@ The Termux repository of abhackerofficial.
 
 | Method    | Command                                                     |
 |:----------|:------------------------------------------------------------|
-| **curl**  | `bash -c "$(curl -fsSL https://bit.do/abhacker-add-repo)"`  |
+| **curl**  | `bash -c "$(curl -fsSL https://bit.do/abhacker-repo)"`  |
 
 > Available Package lists :
 
