@@ -12,6 +12,7 @@ The Termux repository of abhackerofficial.
 + [androfetch](https://github.com/abhackerofficial/androfetch)
 + [ascii-banner](https://github.com/abhackerofficial/ascii-banner)
 + [get-secure](https://github.com/abhackerofficial/get-secure)
++ [metasploit](https://www.metasploit.com)
 + [msvenom](https://github.com/abhackerofficial/msvenom)
 + [ngrok-server](https://github.com/abhackerofficial/ngrok-server)
 + [osmux](https://github.com/abhackerofficial/osmux)
