@@ -6,20 +6,20 @@ PACKAGE=$"/data/data/com.termux/files/usr/share/gnupg"
 APT_DIR="/data/data/com.termux/files/usr/etc/apt"
 SOURCES_LIST="${APT_DIR}/sources.list.d"
 PREFIX="/data/data/com.termux/files/usr"
+TMPDIR="${PREFIX}/tmp"
 
 if [ ! -e "${SOURCES_LIST}" ]; then
     mkdir -p "${SOURCES_LIST}"
 fi
 
-if [ -z "${TMPDIR}" ]; then
-    TMPDIR="${PREFIX}/tmp"
-fi
+#if [ -z "${TMPDIR}" ]; then
+#    TMPDIR="${PREFIX}/tmp"
+#fi
 
 if [ ! -e "${TMPDIR}" ]; then
     mkdir -p "${TMPDIR}"
 fi
 
-mkdir -p $PREFIX/tmp
 if [ ! -d "$PACKAGE" ];then
     echo -e "\nInstalling dependencies..."
     apt update ; apt install gnupg -y
