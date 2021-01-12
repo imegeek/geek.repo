@@ -20,11 +20,11 @@ Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 12
 Depends: wget, ruby, figlet, unrar
 Filename: dists/extras/main/binary-all/ascii-banner.deb
-Size: 3352
-MD5sum: 5b84cb94401118a80c7c4be8f1527323
-SHA1: dc6624f4be2e24bea2a1b1e5157656f40f3e1c70
-SHA256: 4f712f5b7a394f919322abd3f46ddb0bb4772396ccc1df464c2873d65987d023
-SHA512: 2ae224f73a621996fdbca4b85802a6ed3aee8d355a61275b0a2bbfb443b10bf22a31b5582c2479df7023b25da70233025cbcf2ea667bc89a45a814c8a72074c3
+Size: 3360
+MD5sum: c0c33ce6e174a0a5563543d593f31821
+SHA1: 7631c7830305cd04f515e22ae011dc3bcbf7af66
+SHA256: 99a6ba24613f3813091298be72ab7b4d80491a94bb34e2654c0c6354f511739d
+SHA512: e6bfad5332da6f0c418f2380a79a39fe3291f287bc6d4585442562300b2db331e29947b9cfd3ed2e554089e00ecdcf69d6f953cfcf379790ea62571815a8c46b
 Homepage: https://github.com/abhackerofficial
 Description: A ascii banner generator for termux.
 
