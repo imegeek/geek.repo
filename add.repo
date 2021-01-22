@@ -41,22 +41,22 @@ fi
 
 aarch64_architecture()
 {
-printf "# abhacker's repository\ndeb [arch=all,aarch64] https://abhackerofficial.github.io/abhacker.repo/ extras main" > "${SOURCES_LIST}/abhacker.repo.list"
+printf "# abhacker's repository\ndeb [arch=all,aarch64] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
 }
 
 arm_architecture()
 {
-printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.io/abhacker.repo/ extras main" > "${SOURCES_LIST}/abhacker.repo.list"
+printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
 }
 
 i686_architecture()
 {
-printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.io/abhacker.repo/ extras main" > "${SOURCES_LIST}/abhacker.repo.list"
+printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
 }
 
 x86_64_architecture()
 {
-printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.io/abhacker.repo/ extras main" > "${SOURCES_LIST}/abhacker.repo.list"
+printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
 }
 
 

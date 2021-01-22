@@ -4,7 +4,7 @@ Version: 3.12
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 20
 Depends: ruby
-Filename: dists/extras/main/binary-all/androfetch.deb
+Filename: dists/abhacker/main/binary-all/androfetch.deb
 Size: 10632
 MD5sum: ff114a487d7b3f84f0628af743ed30a1
 SHA1: fe91202bba8b0b91b919c5bcec53d75bbe81e850
@@ -19,7 +19,7 @@ Version: 1.6
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 12
 Depends: wget, ruby, figlet, unrar
-Filename: dists/extras/main/binary-all/ascii-banner.deb
+Filename: dists/abhacker/main/binary-all/ascii-banner.deb
 Size: 3360
 MD5sum: c0c33ce6e174a0a5563543d593f31821
 SHA1: 7631c7830305cd04f515e22ae011dc3bcbf7af66
@@ -34,7 +34,7 @@ Version: 1.22
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 16
 Depends: openssl-tool
-Filename: dists/extras/main/binary-all/get-secure.deb
+Filename: dists/abhacker/main/binary-all/get-secure.deb
 Size: 9700
 MD5sum: c3420d0beae1cec8cdd5684b8ebc15c9
 SHA1: 0ebc23c4ebabb2f2e1df248af88411f53cccde05
@@ -49,7 +49,7 @@ Version: 6.0.25
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 100
 Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git, libffi, libgmp, libiconv, libpcap, libsqlite, libtool, libxml2, libxslt, make, ncurses, ncurses-utils, openssl, pkg-config, postgresql, readline, resolv-conf, ruby (>= 2.7.0), tar, termux-elf-cleaner, termux-tools, unzip, wget, zip, zlib
-Filename: dists/extras/main/binary-all/metasploit.deb
+Filename: dists/abhacker/main/binary-all/metasploit.deb
 Size: 2900
 MD5sum: 041ca9a00dd96361bbe7e365925dae38
 SHA1: 11920f59803bd47d9a9eb8c04fc4a03df4f623b8
@@ -64,7 +64,7 @@ Version: 4.06
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 8
 Depends: unstable-repo, metasploit
-Filename: dists/extras/main/binary-all/msvenom.deb
+Filename: dists/abhacker/main/binary-all/msvenom.deb
 Size: 2488
 MD5sum: 151d2ff4b2b761122f217709066943b7
 SHA1: ecf2ab01c66480cbc31d4e0642face77a2d3ac06
@@ -79,7 +79,7 @@ Version: 2.26
 Maintainer: ABHacker ( @abhackerofficial )
 Installed-Size: 21
 Depends: curl
-Filename: dists/extras/main/binary-all/ngrok-server.deb
+Filename: dists/abhacker/main/binary-all/ngrok-server.deb
 Size: 13696
 MD5sum: b549ae0e1ffdd09562ea4ca62790283d
 SHA1: ae64a62254bcdccf8d313352c395af03426268be
@@ -94,7 +94,7 @@ Version: 1.20
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 32
 Depends: wget
-Filename: dists/extras/main/binary-all/osmux.deb
+Filename: dists/abhacker/main/binary-all/osmux.deb
 Size: 27912
 MD5sum: 6d4cbcd8dbc0bcd746998d28b7b9e709
 SHA1: b583d057d11ae32160f673d7ff5df432e02737e3
@@ -108,7 +108,7 @@ Architecture: all
 Version: 1.2
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 10
-Filename: dists/extras/main/binary-all/termux-backup.deb
+Filename: dists/abhacker/main/binary-all/termux-backup.deb
 Size: 4228
 MD5sum: fbb04e61a2fec7c5269e8db640adc695
 SHA1: af1a9b66cac877556ace958026d531fa6e5b40f7
@@ -123,7 +123,7 @@ Version: 5.2
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 38300
 Depends: git, zsh, wget, unrar, ncurses-utils
-Filename: dists/extras/main/binary-all/theme-engine.deb
+Filename: dists/abhacker/main/binary-all/theme-engine.deb
 Size: 1692
 MD5sum: bab9bff60314390c8776db4987390eee
 SHA1: ab6df106b4f01c0536606a57f140353cabcef082
