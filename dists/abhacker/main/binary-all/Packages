@@ -80,11 +80,11 @@ Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 10
 Depends: curl
 Filename: dists/abhacker/main/binary-all/ngrok-server.deb
-Size: 2596
-MD5sum: 411dd96793bcd5ea8e0f1c8a52760a4b
-SHA1: 0a40b49e9a402fb777ca68955f9fa2a752265987
-SHA256: dfa2a47d31cae01a98a61151de42e838c263db3c87b13e253220e314e96577ff
-SHA512: 20f202da2cfd171858d76d8ead1ebf93ffcd70955b63a0eab7f42af1e44f5c60e64cbbefcb7ffe02bb01a6f74e6e8fc8073803a341a56c5b64a658beb81ecca8
+Size: 2588
+MD5sum: 6d302cc003d81243577d1064f777e099
+SHA1: b6017f8891660a06d7b1060166a99cab0a3ab4ea
+SHA256: 501f947ad16577fe6fdd5c20bd2539b9ae25225150d3e1f23934e5dfc50ff1a3
+SHA512: 3ae36600791b8d7f83f29a30a1a86fe6011a6a5c7b7f0e5718177a9a11ec2ba313d43c74d2859a3f55403e65ebaa4126a4b1a1a6d99eb314582f203e7675288d
 Homepage: https://github.com/abhackerofficial
 Description: This tool is usually made for Ngrok, so you can make ngrok backgroud usage without turn on your Hotspot.
 
