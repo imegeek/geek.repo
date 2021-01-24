@@ -75,16 +75,16 @@ Description: Payload generator program for android platform.
 
 Package: ngrok-server
 Architecture: all
-Version: 2.26
-Maintainer: ABHacker ( @abhackerofficial )
-Installed-Size: 21
+Version: 2.28
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 10
 Depends: curl
 Filename: dists/abhacker/main/binary-all/ngrok-server.deb
-Size: 13696
-MD5sum: b549ae0e1ffdd09562ea4ca62790283d
-SHA1: ae64a62254bcdccf8d313352c395af03426268be
-SHA256: 0b24882512fa0415ec02a2ad4957dbe618f8339b3110104ac80de2745c8caf66
-SHA512: ab1be83575afc80ee542f38563a0eb0bfe7f8d06160687cd5eb36091f27abd5431acb3ee4cb1222eb757f25ccb66343cb0985d1b02178f23ecde1d5c1b6f9763
+Size: 2596
+MD5sum: 0ffaa38c75751ef9218bcdb971061862
+SHA1: 0544472d87aa729ddacc93a5284bbff860b93a89
+SHA256: b6a96e2a7b02c80c532d3ca2e8df3674ce994b2fafa8126f98ac3efe3d1be0f9
+SHA512: 04110ec7eb0a80be6987514e4ccd695763ab8f06698819374ebe406a697f44e8930e0a7e6b424473b29c0331556472645b7119ed128e08a8561332230e931379
 Homepage: https://github.com/abhackerofficial
 Description: This tool is usually made for Ngrok, so you can make ngrok backgroud usage without turn on your Hotspot.
 
