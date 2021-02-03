@@ -119,16 +119,16 @@ Description: termux-backup to backing up and restoring your Termux data..
 
 Package: theme-engine
 Architecture: all
-Version: 5.6
+Version: 5.4
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 47600
 Depends: git, zsh, sox, wget, unrar, lsd, ncurses-utils
 Filename: dists/abhacker/main/binary-all/theme-engine.deb
 Size: 1696
-MD5sum: f673414f8b350aa439d10ac528e4f7fe
-SHA1: b7a63aa035852a5faf39f74d3ddf90a0d4e26164
-SHA256: ee72b43a060291ec7948aabf8c41fa939cb651d5f4f4d6d341d85549a08da802
-SHA512: 0bd1760e95bd9ccf50279e65e6aed88df8c3cb97d59d58546ba6052dea06a664bee788f80f72a4d9e2fa48607b5731fd72bb2044a650e6672abf6908ad0699d2
+MD5sum: 76423f6086c432e8d0f3522214fe85b2
+SHA1: 6aaecb4293dc9024fd5f46b8851bf64713a9a191
+SHA256: ce706807c28d533f5c9dd99d2f072a8baed6d1484a79a2b8e5497f69e585a885
+SHA512: 6d98b6ad9580c4ccb25a1d6530e9b37b5de9c4bd69755930c08ce4608cbbd17123419784ec67eb11e36ee4cd88c8d92274aa1bb0dbb595d3cc971717f797b4ba
 Homepage: https://github.com/abhackerofficial
 Description: Theme-Engine is usually made for modification & customization, so you can make trunks even more Colourful and better your Termux.
 
