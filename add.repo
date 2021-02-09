@@ -93,3 +93,9 @@ echo -e "\nUpdating Termux emulator..."
 apt-get update
 echo -e "Install package  : apt install <pkg> ..."
 echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo"
+
+if [[ ${1} == "--install" ]];then
+if [[ ${#2} -gt "0" ]];then
+apt install ${2}
+fi
+fi
