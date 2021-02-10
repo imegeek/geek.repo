@@ -4,16 +4,16 @@ Hash: SHA256
 Architectures: all aarch64 arm i686 x86_64
 Codename: abhacker
 Components: main
-Date: Tue, 09 Feb 2021 21:01:47 +0000
+Date: Wed, 10 Feb 2021 14:57:31 +0000
 Label: ABHacker's  APT repository for Termux
 Origin: Termux Packages (abhacker)
 Suite: abhacker
 MD5Sum:
- 26e4a1e6f1311c1c1177b3465f70edad              213 Release
+ 8891251c32faf9e50768cd647b921457              213 Release
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-aarch64/Packages
  8dc5aea5b03dff8595f096f9e368e888               32 main/binary-aarch64/Packages.xz
- 5b1a2ff794c77d1ccb9f78622f86f5f6             6064 main/binary-all/Packages
- 8dc7712ce24ee368323e4651f32f671f             2576 main/binary-all/Packages.xz
+ 1bf4a5e6d5f69fa33e74fbcea65255ab             6064 main/binary-all/Packages
+ 55392ddd904d2ac63ab111db5997c4b2             2572 main/binary-all/Packages.xz
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-arm/Packages
  8dc5aea5b03dff8595f096f9e368e888               32 main/binary-arm/Packages.xz
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i686/Packages
@@ -21,11 +21,11 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-x86_64/Packages
  8dc5aea5b03dff8595f096f9e368e888               32 main/binary-x86_64/Packages.xz
 SHA1:
- 3ed1fd8768bf4abdbf63decc7d8ec1b7006f8851              213 Release
+ 83c18e7e70c5221f18f48aeaed0a011aaed6dc41              213 Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-aarch64/Packages
  9746882f4236fa1c3a8f86be2f1d9c46680c0b10               32 main/binary-aarch64/Packages.xz
- 41be076af0c34266231f92173bc8e247a9265a8b             6064 main/binary-all/Packages
- 6db19ca793615a4518e9ad8a9532214834a707bf             2576 main/binary-all/Packages.xz
+ 05b36598031abdbfe9bc202311e6d01efd998ae6             6064 main/binary-all/Packages
+ a230ee90bba7495f133a33b0a18b0d917da42c2f             2572 main/binary-all/Packages.xz
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-arm/Packages
  9746882f4236fa1c3a8f86be2f1d9c46680c0b10               32 main/binary-arm/Packages.xz
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i686/Packages
@@ -33,11 +33,11 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-x86_64/Packages
  9746882f4236fa1c3a8f86be2f1d9c46680c0b10               32 main/binary-x86_64/Packages.xz
 SHA256:
- 3fb6f019718ea89ba4c6f96a442a79646c8875429a60e5f2a9f3379bf96a12ec              213 Release
+ 80a13aab348b724198df56d28e30b010b39d1c9c39e7db6735a7a20797886a84              213 Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-aarch64/Packages
  0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275               32 main/binary-aarch64/Packages.xz
- 8c79283a22168d31a48cee87c897d97b29d7eb0ee207944da203cf1e86768e79             6064 main/binary-all/Packages
- 1c00d33f091b62c8296efdf03d48d956bed239f2abdb29b337a7a816e17a4081             2576 main/binary-all/Packages.xz
+ e641cceb2391f7d6372adf4f07e0006ae96b01b1765e5b488028393af6d0cf82             6064 main/binary-all/Packages
+ fe707991bceace24d998686f97f733a528b5c0e6ac889171a93fad26c9555155             2572 main/binary-all/Packages.xz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-arm/Packages
  0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275               32 main/binary-arm/Packages.xz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i686/Packages
@@ -45,11 +45,11 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-x86_64/Packages
  0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275               32 main/binary-x86_64/Packages.xz
 SHA512:
- 90cb982b7a53d1d13be0412bed1e19332bc2376feb3e8272853a855a204d1b63cf8555734a97e1a208fe7c6fa2efdbbe58518e5d24e1acba727972091baeb89f              213 Release
+ a4f2f56150c7b5f840bc5b5ff0d385c7f1783b5d909c7939752793ba8d06fa50ca386829b44b27b74653559a93fe6fe101fd43338fbfdeec4310a4476a883b5e              213 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-aarch64/Packages
  034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527               32 main/binary-aarch64/Packages.xz
- 1b635cd984cf125208b50eef7b2a738c289d11171088dd1d2efa813f2ed3110ca98e5656c7568d5d054c3eb1c26f1b0392f916b7645ec2d7c7d460a42987abf5             6064 main/binary-all/Packages
- c39d57889be9dcb30bfdc7057e91a065eb108ee42af259454ee68dc6b304e88ba0f6c80345d4e2c6c1baeb9eeb0f26bd198b6f2588795c3b44a24db17535c94e             2576 main/binary-all/Packages.xz
+ 1603bdf1c4f20546dc5cd0d02665dc5ea9ea0b598a5fff701d6591f07565e92f3f08cc8e831bb92f3a62f4ca8d6371c6ca6a1829912855be2d1ab676e946f90e             6064 main/binary-all/Packages
+ 5f6c10377b72464160276fbdbaff4dcb931e65b7653c5d070ee0022a88f85694cb19d44e1a1c57917fa2a536e7585d0bf4cf7679881c6faa1d028abc9a5ec767             2572 main/binary-all/Packages.xz
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-arm/Packages
  034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527               32 main/binary-arm/Packages.xz
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i686/Packages
@@ -58,15 +58,15 @@ SHA512:
  034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527               32 main/binary-x86_64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEZlL7r0TRbJLSsQrfSaCMyv42E3wFAmAi+DsACgkQSaCMyv42
-E3zQQQv+OzI+/VuYn+5ZqRpCatzSdP5Cb4LceXUXdx7XXRXhJHnCaU8Mvioz2mZa
-aTM/MyBRfxqnmkecWrCHIgSZtdrpBiTGtJOmagnX2D3jm2GBvJOIbbHwXZIVRZPh
-NbW8tWhA5/SUSIG+hwiA0ra63h67seKUbmtmiayt2EVHkFkZOKD1rE5fHh+gMI1X
-tpZdOdAtpqmqndgmUj1ihFfLbu5iRc6dT2OT7e9bS1nO0nT0RHYmVhM40Q8umJcR
-m09VtOUDf4UNgaz44JzMNEq2NwuKDQfCMsiWuSEMFEt5C2CsuQmqwflJOBv++ciZ
-yTPRrSdJDbyur+qxrLPw2brAVugO27iTELcqVaTloqzCpGWmtX25K5YnLzEAsQUo
-QONK6PIQ3b0JxXP9mwLUS9vGhLcHmqaL2Sekij7XyOeVRJLmZfLX2gjytd76QTiO
-FI7lk/ucqExlQ2+sXYyF0Sg9x8uK0DvWdtH5CA5kWzAg/DzxzTHT/QB1R50we/q2
-65l3ozcF
-=Ucj5
+iQGzBAEBCAAdFiEEZlL7r0TRbJLSsQrfSaCMyv42E3wFAmAj9FsACgkQSaCMyv42
+E3zjoQv+IaW8EryseShOaALR7uT1rqXhuNVHVUE1aAYMCGDPcMac0vYqyV83ZJW1
+7iU2Sacfph2VzwIiIEsuZMM1+mfCSP21a+MTl5XBrqScKSDjb5edzNnNmIAcWf8N
+1wum+LVXL3+Jm7725Mnlisup4MBMChO+f3bvPqjNJ03KRA7mx8M7ebEBENQPQJAx
+/xsQf/SFfDkysXzllOBLqob84ZG067ORaYmenhNl/EAe21ppQw3iUnz00yvoFYNO
+DJV+qaJMAI0uw2R1EHWQK2AfRiEZ4leMmbqbv2frf8cVhQ5PZURiftr1ZMI8V7o5
+TWHq8gPbVd9xnp2+2ElBDWwbKB2Wz0CQjdMWYD55HZ2iBFVY5xdp0Y/YTmKybwCN
+gBy96HgIL+GGizf5xsNJR/QBZOyX00O1tWbTNSyWc7RPHSl4zwVTNEAwpAacdyQL
+J/qknnVCeWo+NCYU8a+tJmBai9Xez/aTADm9Cc0/TrJbH+jFXQGd+vYh2+djs2Yz
+dCk0cgKb
+=LYgt
 -----END PGP SIGNATURE-----
