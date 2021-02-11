@@ -7,6 +7,7 @@ APT_DIR="/data/data/com.termux/files/usr/etc/apt"
 SOURCES_LIST="${APT_DIR}/sources.list.d"
 PREFIX="/data/data/com.termux/files/usr"
 TMPDIR="${PREFIX}/tmp"
+ARCH=`dpkg --print-architecture`
 
 if [ ! -e "${SOURCES_LIST}" ]; then
     mkdir -p "${SOURCES_LIST}"
@@ -26,14 +27,18 @@ if [ ! -d "$PACKAGE" ];then
 fi
 
 # Download signed key
-echo -e "\nRetrieving information..."
+sleep 0.1
+   printf "\rRetrieving informations "
+sleep 0.3
+   printf "[Connected to github.com]..."
 sleep 0.3
 grep -q "abhackerofficial@gmail.com" $PUB_DIR &> /dev/null
 if [ $? -eq 0 ]; then
    sleep 0.4
-   echo "Public GPG Key Already exists..."
+   printf "\r                                                    "
+   printf "\rPublic GPG Key Already exists [${ARCH}]..."
 else
-   echo -e "Adding Public GPG Key..."
+   printf "\rAdding Public GPG Key [${ARCH}]..."
    cd $PREFIX/tmp
    curl --progress-bar -L --fail --retry 4 -O https://abhackerofficial.github.io/abhacker.repo/abhacker.repo.key
    apt-key add abhacker.repo.key
@@ -63,13 +68,12 @@ printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.
 # abhacker's repository
 if [ -f "$REPO_DIR" ];then
 sleep 0.5
-echo "ABHacker's Repository Already exists..."
+printf "\rABHacker's Repository Already exists [${ARCH}]..."
 else
-echo "Adding ABHacker's Repository..."
+printf "\rAdding ABHacker's Repository [${ARCH}]..."
 sleep 0.6
 echo "OK"
-arch=`dpkg --print-architecture`
-case "$arch" in
+case "$ARCH" in
     aarch64)
         aarch64_architecture
         ;;
@@ -89,7 +93,7 @@ esac
 fi
 
 sleep 0.7
-echo -e "\nUpdating Termux emulator..."
+printf "\rUpdating Termux emulator [${ARCH}]...              \n"
 apt-get update
 echo -e "Install package  : apt install <pkg> ..."
 echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo"
