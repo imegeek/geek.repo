@@ -90,16 +90,16 @@ Description: This tool is usually made for Ngrok, so you can make ngrok backgrou
 
 Package: osmux
 Architecture: all
-Version: 1.20
+Version: 1.26
 Maintainer: ABHacker Official <abhackerofficial>
-Installed-Size: 32
+Installed-Size: 17
 Depends: wget
 Filename: dists/abhacker/main/binary-all/osmux.deb
-Size: 27912
-MD5sum: 6d4cbcd8dbc0bcd746998d28b7b9e709
-SHA1: b583d057d11ae32160f673d7ff5df432e02737e3
-SHA256: 4c29c3fdde78ad26a4d1ac6302666d94516ca3a2e25a528351849b2fcda350d5
-SHA512: 46234ad2136ab51b86810b7f8cb96ed98c3ffa15824a2fa55d84587075fb177ada750872c3054261d766046adabb86a58ca022ef34305fb76e83d425cf3ccdb3
+Size: 4532
+MD5sum: edbd3bc526e99a305608e62958ff20a5
+SHA1: a6402b254015794f016e1f3a9117ab932d41d6dd
+SHA256: 13d395be24d9d6fc02296568b0f190ef427ee64bcbe12130d64cb43c555f548e
+SHA512: 5a64b444cf28f5d95d950b426469c97c89ebaef4f3cfc4e7993c9cf499c237d9a60b55e96e7546659480ed34af97105b7d9b916b0661cad61de5d2ca3bd024c5
 Homepage: https://github.com/abhackerofficial
 Description: osmux is a installer of types of linux distro.
 
