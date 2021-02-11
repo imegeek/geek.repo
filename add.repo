@@ -95,14 +95,19 @@ echo -e "Install package  : apt install <pkg> ..."
 echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo"
 
 if [[ ${1} == "--install" ]];then
+
 if [[ ${#2} -gt "0" ]];then
 apt install ${2}
+if [[ ${3} == "-r" ]];then
+if [[ ${#3} -gt "0" ]];then
+${4}
+fi
+fi
 fi
 
 elif [[ ${1} == "--list" ]];then
 list() {
 apt list | grep -a "abhacker" | head -n -0
 }
-
 printf "`list`\n" | cut -d ":" -f 2
 fi
