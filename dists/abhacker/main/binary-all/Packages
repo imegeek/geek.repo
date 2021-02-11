@@ -95,11 +95,11 @@ Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 17
 Depends: wget
 Filename: dists/abhacker/main/binary-all/osmux.deb
-Size: 4532
-MD5sum: edbd3bc526e99a305608e62958ff20a5
-SHA1: a6402b254015794f016e1f3a9117ab932d41d6dd
-SHA256: 13d395be24d9d6fc02296568b0f190ef427ee64bcbe12130d64cb43c555f548e
-SHA512: 5a64b444cf28f5d95d950b426469c97c89ebaef4f3cfc4e7993c9cf499c237d9a60b55e96e7546659480ed34af97105b7d9b916b0661cad61de5d2ca3bd024c5
+Size: 4524
+MD5sum: 8fe8ddc7d8d247d64f5bcf3951376cf5
+SHA1: 047c9c4632c27a829746fd130d9a8cc06dd680cb
+SHA256: f441b15c0eda01cef5ebff848ce6da65f5aee9b1ca521d93d3a73287e828aedc
+SHA512: bc272fdb8dfa812375551b83b661b8a6453a5e74d5676a970ddbd9792a3b260898e9c8254300b6b61a9d9e56b0ad075f306b01541d71dab7a597c1a2fc52736e
 Homepage: https://github.com/abhackerofficial
 Description: osmux is a installer of types of linux distro.
 
