@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-PUB_DIR=$"$PREFIX/etc/apt/trusted.gpg"
-REPO_DIR=$"$PREFIX/etc/apt/sources.list.d/abhacker.repo.list"
-PACKAGE=$"/data/data/com.termux/files/usr/share/gnupg"
-APT_DIR="/data/data/com.termux/files/usr/etc/apt"
-SOURCES_LIST="${APT_DIR}/sources.list.d"
-PREFIX="/data/data/com.termux/files/usr"
-TMPDIR="${PREFIX}/tmp"
-ARCH=`dpkg --print-architecture`
+export PUB_DIR=$"$PREFIX/etc/apt/trusted.gpg"
+export REPO_DIR=$"$PREFIX/etc/apt/sources.list.d/abhacker.repo.list"
+export PACKAGE=$"/data/data/com.termux/files/usr/share/gnupg"
+export APT_DIR="/data/data/com.termux/files/usr/etc/apt"
+export SOURCES_LIST="${APT_DIR}/sources.list.d"
+export PREFIX="/data/data/com.termux/files/usr"
+export ARCH=`dpkg --print-architecture`
+export TMPDIR="${PREFIX}/tmp"
 
 if [ ! -e "${SOURCES_LIST}" ]; then
     mkdir -p "${SOURCES_LIST}"
@@ -28,18 +28,21 @@ fi
 
 # Download signed key
 sleep 0.1
-   printf "\rRetrieving informations "
-sleep 0.3
+   printf "\r\e[93m[Connecting to github.io]... "
+sleep 0.6
    printf "[Connected to github.io]..."
+sleep 0.3
+   printf "\r\e[93m                                                            "
+   printf "\rRetrieving informations [${ARCH}]..."
 sleep 0.3
 grep -q "abhackerofficial@gmail.com" $PUB_DIR &> /dev/null
 if [ $? -eq 0 ]; then
    sleep 0.4
-   printf "\r                                                    "
-   printf "\rPublic GPG Key Already exists [${ARCH}]..."
+   printf "\r\e[93m                                                            "
+   printf "\r\e[93mPublic GPG Key Already exists [${ARCH}]..."
 else
-   printf "\r                                                    "
-   printf "\rAdding Public GPG Key [${ARCH}]...\n"
+   printf "\r\e[93m                                                            "
+   printf "\r\e[93mAdding Public GPG Key [${ARCH}]...\n"
    cd $PREFIX/tmp
    curl --progress-bar -L --fail --retry 4 -O https://abhackerofficial.github.io/abhacker.repo/abhacker.repo.key
    apt-key add abhacker.repo.key &> /dev/null &
@@ -69,9 +72,9 @@ printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.
 # abhacker's repository
 if [ -f "$REPO_DIR" ];then
 sleep 0.5
-printf "\rABHacker's Repository Already exists [${ARCH}]..."
+printf "\r\e[93mABHacker's Repository Already exists [${ARCH}]..."
 else
-printf "\rAdding ABHacker's Repository [${ARCH}]... "
+printf "\r\e[93mAdding ABHacker's Repository [${ARCH}]... "
 sleep 0.5
 printf "OK"
 case "$ARCH" in
@@ -94,10 +97,10 @@ esac
 fi
 
 sleep 0.7
-printf "\rUpdating Termux emulator [${ARCH}]...              \n"
+printf "\r\e[93mUpdating Termux emulator [${ARCH}]...              \n\e[0m"
 apt-get update
-echo -e "Install package  : apt install <pkg> ..."
-echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo"
+echo -e "\e[94mInstall package  : apt install <pkg> ..."
+echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo\e[0m"
 
 if [[ ${1} == "--install" ]];then
 
@@ -105,7 +108,7 @@ if [[ ${#2} -gt "0" ]];then
 apt install ${2}
 if [[ ${3} == "-r" ]];then
 if [[ ${#3} -gt "0" ]];then
-${4}
+${4} $5 $6 $7 $8 $9
 fi
 fi
 fi

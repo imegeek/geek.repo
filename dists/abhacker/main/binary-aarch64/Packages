@@ -1,0 +1,18 @@
+Package: ruby
+Architecture: aarch64
+Version: 2.7.2
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 21984
+Depends: gdbm, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib
+Recommends: clang, make, pkg-config
+Breaks: ruby-dev
+Replaces: ruby-dev
+Filename: dists/abhacker/main/binary-aarch64/ruby.deb
+Size: 3840216
+MD5sum: 844b21db7316f8059ae70221ba92a849
+SHA1: ba7d4d1c5c8786cd442c70578ea398734d7592bc
+SHA256: fc9385bcefb9dd7feed6c93ee704b9083c3f9a80dde98c6eb0050aabbb94d4d8
+SHA512: 08e01bc7988fdf88ee55bca9d12eaf800526a875f1ddb6e03a71fcfa12b39f7d5d4e6e9511b413185adda95a0e74df0b447401751be593dbe7d7cdf9ce738744
+Homepage: https://www.ruby-lang.org/
+Description: Dynamic programming language with a focus on simplicity and productivity
+
