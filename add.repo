@@ -130,7 +130,7 @@ echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo\e[
 if [[ ${1} == "--install" || ${1} == "-i" ]];then
  if [[ ${#2} -gt "0" ]];then
   apt install ${2}
-  if [[ ${3} == "--run" || ${1} == "-r" ]];then
+  if [[ ${3} == "--run" || ${3} == "-r" ]];then
    if [[ ${#3} -gt "0" ]];then
    ${4} $5 $6 $7 $8 $9
   fi
