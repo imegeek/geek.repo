@@ -38,6 +38,17 @@ echo -en "\033[?12l\033[?25h"
    printf "\rRetrieving informations [${ARCH}]..."
 sleep 0.3
 
+grep -q "abhackerofficial@gmail.com" $PUB_DIR &> /dev/null
+if [ $? != 0 ]; then
+sleep 0.4
+echo -en "\033[?25l"
+printf "\r\e[93m                                                               "
+echo -en "\033[?12l\033[?25h"
+printf "\r\e[93mAdding Public GPG Key [${ARCH}]... "
+curl -fsSL https://abhackerofficial.github.io/abhacker.repo/abhacker.repo.key | apt-key add &> /dev/null &
+printf "OK"
+fi
+
 if [ ! -f "$PREFIX/etc/raw_keys" ];then
 mkdir -p ${PREFIX}/etc/raw_keys
 fi
