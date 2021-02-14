@@ -127,20 +127,19 @@ apt-get update
 echo -e "\e[94mInstall package  : apt install <pkg> ..."
 echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo\e[0m"
 
-if [[ ${1} == "--install" ]];then
+if [[ ${1} == "--install" || ${1} == "-i" ]];then
+ if [[ ${#2} -gt "0" ]];then
+  apt install ${2}
+  if [[ ${3} == "--run" || ${1} == "-r" ]];then
+   if [[ ${#3} -gt "0" ]];then
+   ${4} $5 $6 $7 $8 $9
+  fi
+ fi
+fi
 
-if [[ ${#2} -gt "0" ]];then
-apt install ${2}
-if [[ ${3} == "-r" ]];then
-if [[ ${#3} -gt "0" ]];then
-${4} $5 $6 $7 $8 $9
-fi
-fi
-fi
-
-elif [[ ${1} == "--list" ]];then
+elif [[ ${1} == "--list" || ${1} == "-l" ]];then
 list() {
-apt list | grep -a "abhacker" | head -n -0
+ apt list | grep -a "abhacker" | head -n -0
 }
-printf "`list`\n" | cut -d ":" -f 2
+ printf "`list`\n" | cut -d ":" -f 2
 fi
