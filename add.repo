@@ -106,17 +106,17 @@ printf "# abhacker's repository\ndeb [arch=all,aarch64] https://abhackerofficial
 
 arm_architecture()
 {
-printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
+printf "# abhacker's repository\ndeb [arch=all,arm] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
 }
 
 i686_architecture()
 {
-printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
+printf "# abhacker's repository\ndeb [arch=all,i686] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
 }
 
 x86_64_architecture()
 {
-printf "# abhacker's repository\ndeb [arch=all] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
+printf "# abhacker's repository\ndeb [arch=all,x86_64] https://abhackerofficial.github.io/abhacker.repo/ abhacker main" > "${SOURCES_LIST}/abhacker.repo.list"
 }
 
 
@@ -155,7 +155,7 @@ echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo\e[
 
 if [[ ${1} == "--install" || ${1} == "-i" ]];then
  if [[ ${#2} -gt "0" ]];then
-  apt install ${2}
+  apt install "${2}"
   if [[ ${3} == "--run" || ${3} == "-r" ]];then
    if [[ ${#3} -gt "0" ]];then
    ${4} $5 $6 $7 $8 $9
@@ -165,7 +165,7 @@ fi
 
 elif [[ ${1} == "--update" || ${1} == "-u" ]];then
   if [[ ${#2} -gt "0" ]];then
- apt upgrade ${2}
+ apt upgrade "${2}"
   fi
 
 elif [[ ${1} == "--list" || ${1} == "-l" ]];then
