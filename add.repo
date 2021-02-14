@@ -9,6 +9,32 @@ export PREFIX="/data/data/com.termux/files/usr"
 export ARCH=`dpkg --print-architecture`
 export TMPDIR="${PREFIX}/tmp"
 
+connection() {
+wget -q --spider http://google.com
+}
+
+true() {
+printf "\r\e[93m[Connecting to github.io]... "
+}
+false() {
+printf "\r\e[93m[Connecting to github.io]... "
+sleep 0.5
+printf "\e[91m[Failed connect to github.io]...\n"
+connection || printf "\e[91m); Connection error code : $?\n"
+}
+
+connections() {
+connection
+if [[ $? -eq 0 ]];then
+connection | true
+else
+connection | false
+exit
+fi
+}
+
+connections
+
 if [ ! -e "${SOURCES_LIST}" ]; then
     mkdir -p "${SOURCES_LIST}"
 fi
@@ -136,6 +162,11 @@ if [[ ${1} == "--install" || ${1} == "-i" ]];then
   fi
  fi
 fi
+
+elif [[ ${1} == "--update" || ${1} == "-u" ]];then
+  if [[ ${#2} -gt "0" ]];then
+ apt upgrade ${2}
+  fi
 
 elif [[ ${1} == "--list" || ${1} == "-l" ]];then
 list() {
