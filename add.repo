@@ -41,11 +41,11 @@ sleep 0.3
 grep -q "abhackerofficial@gmail.com" $PUB_DIR &> /dev/null
 if [ $? != 0 ]; then
 sleep 0.4
-echo -en "\033[?25l"
+   echo -en "\033[?25l"
 printf "\r\e[93m                                                               "
-echo -en "\033[?12l\033[?25h"
+   echo -en "\033[?12l\033[?25h"
 printf "\r\e[93mAdding Public GPG Key [${ARCH}]... "
-curl -fsSL https://abhackerofficial.github.io/abhacker.repo/abhacker.repo.key | apt-key add &> /dev/null &
+   curl -fsSL https://abhackerofficial.github.io/abhacker.repo/abhacker.repo.key | apt-key add &> /dev/null &
 printf "OK"
 fi
 
@@ -62,15 +62,15 @@ get2=`cat $PREFIX/etc/raw_keys/abhacker.repo.key | awk NR==3`
 
 if [[ ${get1} != ${get2} ]];then
 sleep 0.4
-echo -en "\033[?25l"
+   echo -en "\033[?25l"
 printf "\r\e[93m                                                               "
-echo -en "\033[?12l\033[?25h"
+   echo -en "\033[?12l\033[?25h"
 printf "\r\e[93mAdding Public GPG Key [${ARCH}]... "
 curl -fsSL https://github.com/abhackerofficial/abhacker.repo/raw/master/abhacker.repo.key | cat &> ${PREFIX}/etc/raw_keys/abhacker.repo.key &
-curl -fsSL https://github.com/abhackerofficial/abhacker.repo/raw/master/abhacker.repo.key | apt-key add &> /dev/null
-printf "OK"
+  curl -fsSL https://github.com/abhackerofficial/abhacker.repo/raw/master/abhacker.repo.key | apt-key add &> /dev/null
+ printf "OK"
 else
-printf "\r\e[93mPublic GPG Key Already exists [${ARCH}]..."
+ printf "\r\e[93mPublic GPG Key Already exists [${ARCH}]..."
 fi
 
 aarch64_architecture()
