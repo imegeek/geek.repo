@@ -16,6 +16,7 @@ The Termux repository of abhackerofficial.
 + [msvenom](https://github.com/abhackerofficial/msvenom)
 + [ngrok-server](https://github.com/abhackerofficial/ngrok-server)
 + [osmux](https://github.com/abhackerofficial/osmux)
++ [ruby 2.7.2](https://github.com/ruby/ruby)
 + [termux-backup](https://github.com/abhackerofficial/termux-backup)
 + [theme-engine](https://github.com/abhackerofficial/Theme-Engine)
 
