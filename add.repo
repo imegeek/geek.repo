@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
 
-export PUB_DIR=$"$PREFIX/etc/apt/trusted.gpg"
 export REPO_DIR=$"$PREFIX/etc/apt/sources.list.d/abhacker.repo.list"
 export PACKAGE=$"/data/data/com.termux/files/usr/share/gnupg"
 export APT_DIR="/data/data/com.termux/files/usr/etc/apt"
 export SOURCES_LIST="${APT_DIR}/sources.list.d"
 export PREFIX="/data/data/com.termux/files/usr"
+export PUB_DIR=$"$PREFIX/etc/apt/trusted.gpg"
 export ARCH=`dpkg --print-architecture`
 export TMPDIR="${PREFIX}/tmp"
 
 connection() {
-wget -q --spider http://google.com
+#wget -q --spider http://google.com
+curl -Is http://www.google.com &> /dev/null
 }
 
 true() {
