@@ -174,4 +174,9 @@ list() {
  apt list | grep -a "abhacker" | head -n -0
 }
  printf "`list`\n" | cut -d ":" -f 2
+
+elif [[ ${1} == "--show" || ${1} == "-s" ]];then
+  if [[ ${#2} -gt "0" ]];then
+  apt search ${2}
+  fi
 fi
