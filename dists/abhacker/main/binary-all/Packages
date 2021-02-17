@@ -110,11 +110,11 @@ Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 2
 Depends: tar
 Filename: dists/abhacker/main/binary-all/tbackup.deb
-Size: 2048
-MD5sum: 28ba396c0493446fc094a5330e924c40
-SHA1: 59cc1275e7558a4023068f05b325d85562c62f75
-SHA256: 55ffd114c5d08a1e45ccb58f4b5f5afa02b9c13b52419972d13705d2aa5711c9
-SHA512: 3547df33fb6fafe5d62ba0f7de0f2cd0d657439e66daf3bbf57c05fe4f6f2d357f622972c784a15627312d2337bde278b3c89b468e3a3538d34b8651f78036a1
+Size: 2056
+MD5sum: 3ce44b0c5b285b78df8244445a8ef49a
+SHA1: 2bcae4846561ba5fb62d24ab1f546af8bc57265a
+SHA256: b8e31356764bc77e28d84009f2f317fe018c91e129f5180b45058d26a808a9fe
+SHA512: 49a9f183cb3770057175c105bc5432b395e7e66a383249dac2102f796095a1a3782d03cc3c1ed58e9b99b4868580fc815d3147e84e8a046373fc516c5781923d
 Homepage: https://github.com/abhackerofficial
 Description: A Daily Termux Backup Script.
 
