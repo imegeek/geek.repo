@@ -6,8 +6,15 @@ export APT_DIR="/data/data/com.termux/files/usr/etc/apt"
 export SOURCES_LIST="${APT_DIR}/sources.list.d"
 export PREFIX="/data/data/com.termux/files/usr"
 export PUB_DIR=$"$PREFIX/etc/apt/trusted.gpg"
+export TERMUX=$(uname -o | grep -o "Android")
 export ARCH=`dpkg --print-architecture`
 export TMPDIR="${PREFIX}/tmp"
+
+if [[ $TERMUX != *'Android'* ]];then
+echo "Sorry, but your system doesn't support !"
+# if you're removed that lines I don't know what happens to you !
+exit 1
+fi
 
 connection() {
 #wget -q --spider http://google.com
