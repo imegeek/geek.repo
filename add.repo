@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
-export REPO_DIR=$"$PREFIX/etc/apt/sources.list.d/abhacker.repo.list"
-export PACKAGE=$"/data/data/com.termux/files/usr/share/gnupg"
-export APT_DIR="/data/data/com.termux/files/usr/etc/apt"
-export SOURCES_LIST="${APT_DIR}/sources.list.d"
+
 export PREFIX="/data/data/com.termux/files/usr"
+export REPO_DIR=$"$PREFIX/etc/apt/sources.list.d/abhacker.repo.list"
+export PACKAGE=$"${PREFIX}/share/gnupg"
+export APT_DIR="${PREFIX}/etc/apt"
+export SOURCES_LIST="${APT_DIR}/sources.list.d"
+export PREFIX="${PREFIX}"
 export PUB_DIR=$"$PREFIX/etc/apt/trusted.gpg"
 export TERMUX=$(uname -o | grep -o "Android")
 export ARCH=`dpkg --print-architecture`
