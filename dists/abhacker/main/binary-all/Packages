@@ -105,16 +105,16 @@ Description: osmux is a installer of types of linux distro.
 
 Package: tbackup
 Architecture: all
-Version: 1.2.2
+Version: 1.2.4
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 2
 Depends: tar
 Filename: dists/abhacker/main/binary-all/tbackup.deb
-Size: 2172
-MD5sum: 834cb233aaa5d35c61e7406191914325
-SHA1: 5a495754d3438d359531b130a402b037d0c855de
-SHA256: dd1e075bca67370702c9958cdc6a1fd42c8a4365680e1c47d754bef641d1bfc7
-SHA512: d7fcb2a7004b133d7f62e0bbcac5a880ae92b5c2c61be2c60477cb593ca9c081eecd16f4d140db644d20eea50ca3c7915e7a1c49561ec0f55c660f8878066c7a
+Size: 2216
+MD5sum: 16f8695d563f0abddfe8369a83f5e6e9
+SHA1: 4ac32df2851dc8d7e2ecb41702efe852f2dc6e37
+SHA256: c04f635978af947dca68c0e9267490a54fcd5b7849ea41dbcfd7714009d2cff3
+SHA512: b7d7348a90322e4872b58c4abca48b5e935e8eb180e00bc00fa513cfbf214edda6b209349804171fa084cc26e06bc3bd5aaf1dd74fcc343a1a577e834c6945d1
 Homepage: https://github.com/abhackerofficial
 Description: A Daily Termux Backup Script.
 
