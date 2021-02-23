@@ -51,10 +51,10 @@ Installed-Size: 100
 Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git, libffi, libgmp, libiconv, libpcap, libsqlite, libtool, libxml2, libxslt, make, ncurses, ncurses-utils, openssl, pkg-config, postgresql, readline, resolv-conf, ruby (>= 2.7.0), tar, termux-elf-cleaner, termux-tools, unzip, wget, zip, zlib
 Filename: dists/abhacker/main/binary-all/metasploit.deb
 Size: 2840
-MD5sum: 0b8120b5f075a0c7646600acfeeceb05
-SHA1: c9e81e704fbbe4492fe2eca02aa160d51dd9177e
-SHA256: ef3f43208e7a3003cf8ca8244341db9289d331e839891c4c709d332e3066d86e
-SHA512: be5ea2833c7a195fb44c527565c49b0965f3dc88284239ceea7708df4f92217581ee233b7ce27f0e017b0591dbcd3ebd4a543a01017b0969f27ed208d8a5e3cf
+MD5sum: 45c749a821c414961bfc72d69847fe10
+SHA1: 7d347300f772c331bfd947364876c0b05fe9c1cd
+SHA256: 07a55042aaa41cd0baf834c3f7b2a7b0aba78904e0bcc865c95a34cf7ec30610
+SHA512: 5faeec9a6eb929092fd439f76e7c41010d35c3f18160e96880daf88589c3d6936e6dbe59540686f318b94bb2354932d82c444755511d410555464e32d71fd94f
 Homepage: https://www.metasploit.com/
 Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
 
