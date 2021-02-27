@@ -139,11 +139,11 @@ Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 4
 Depends: curl
 Filename: dists/abhacker/main/binary-all/tgbot.deb
-Size: 2092
-MD5sum: 2da12ede5f74b0885c6f204ca959e3c0
-SHA1: 5f2e4225d718d4af30de08d70d721525adbf8988
-SHA256: 11b1a50d31853005fbc26964a91b8e425c009c553dc4fd20e0ac911c21843a9e
-SHA512: 751dd93bcb2887b9c78271f905fe0929624d82f88fb9baa1255c9b143c395aaffc2f60acebcd43279c199e6e97ce63b66824d996d815273d9eae8f672b1f1e64
+Size: 2096
+MD5sum: c211fb295b0c79fe87433b42a8ee0220
+SHA1: da894f554532ea5004b7849ff6691792e26f11fb
+SHA256: d193a00b528f04b9ea84a8a4fea7816ad9d8369cd82c1b9cc4404fdc8c7284a0
+SHA512: 54815340598e99a1760291110dcf8e3ed806c756afa3e9a8da97073d9a75fbb68734716c9c0ef6b19f00c456dea59a61715e1a28e7818f1ce20256cd7e1c89b8
 Homepage: https://github.com/abhackerofficial
 Description: tgbot is a simple Telegram Bot written in Bash that can reply to user messages, execute commands, and others cool features.
 
