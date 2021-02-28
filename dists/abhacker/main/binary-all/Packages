@@ -134,16 +134,16 @@ Description: termux-backup to backing up and restoring your Termux data..
 
 Package: tgbot
 Architecture: all
-Version: 2.2.8
+Version: 3.0.1
 Maintainer: ABHacker Official <abhackerofficial>
-Installed-Size: 4
+Installed-Size: 8
 Depends: curl
 Filename: dists/abhacker/main/binary-all/tgbot.deb
-Size: 2212
-MD5sum: fbdb1af9c0990faa35927c6e36a313a3
-SHA1: 98609d91241e40edc81c6f7e5345cb3fbc272708
-SHA256: e09865633dcd2b67e918eb85434c35a21ef27aa44b736591d264a6cbe0370063
-SHA512: ad611b8b109f85e76d5018b75eb443c7eba2e45413715548f66fad45e708b033309647e89c453a9f1c5bb860d37e25de056781c9418c94867cbf3a96b68009cc
+Size: 2328
+MD5sum: facfa3c67df0582b969c63e51231bc36
+SHA1: daa8054c7d55ffaad1207537cda46643738dc1f4
+SHA256: 7ee842065b709fb886ad52d8e7c82641ee62fb90a2e8211ec387fcd9c5ed4c0b
+SHA512: 6b715a68414217c0db07a8e96b039e0a08e02bd0c7dbe130f3f73fbf68cfb224765c2e190a51b35dc7509137c36d86377bd4e4cd13ddb6b671c04365944fd2a4
 Homepage: https://github.com/abhackerofficial
 Description: tgbot is a simple Telegram Bot written in Bash that can reply to user messages, execute commands, and others cool features.
 
