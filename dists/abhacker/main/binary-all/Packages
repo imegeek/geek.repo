@@ -111,10 +111,10 @@ Installed-Size: 5
 Depends: tar
 Filename: dists/abhacker/main/binary-all/tbackup.deb
 Size: 2488
-MD5sum: df0a23e17900c3838bc03fbcac9be247
-SHA1: 52ae97887c6994f8262dd3181cd36ac6be1cef01
-SHA256: 43fb369c9fd11b36bda721d07d6dbd800061716e961088f171ced14bdf9d2d84
-SHA512: f4adc48133fc898ce9b3d7ebc4b29d64112cdf2c5ddcd76c83ecbd7755431689a03379ede3bb2504881aca19767f2cc4fccb6b3819ac37a0f09e4dd1cbb26511
+MD5sum: a05c7f4952f4d9eba6711fe24988925b
+SHA1: 2145f9ae89a91c13db75d462b57650e71d14c03b
+SHA256: 20e83d8e60649abe3fd28b85738f586b707a1dd0aacd6523362b4924df97f1ac
+SHA512: 055ddede47a2d56fb91c9262fc46b98e0d2bdcd33edbbba182755e3c08aa2ea494a890b36ba87356c17b58ba09ca56a4e4b658062d64411d626314a010c1876f
 Homepage: https://github.com/abhackerofficial
 Description: A Daily Termux Backup Script.
 
