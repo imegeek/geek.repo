@@ -1,15 +1,15 @@
 Package: abs-cli
 Architecture: all
-Version: 1.10
+Version: 1.12
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 2
 Depends: curl
 Filename: dists/abhacker/main/binary-all/abs-cli.deb
-Size: 1424
-MD5sum: 132cfd5ba4149d3073f829b203a970f9
-SHA1: 2720c3ced83e459ff4c6ba1c0dcf6c4d60c71205
-SHA256: edc35ad2eff945fa508016d022a90781c10cd45b1416b948f62ad1390b36d31e
-SHA512: 951f57b713562bf767ec389e134f189da73bd6952a0bae827fb300609846c78e28ae117808581ba1fca473bc288d8927180984ced0f563dafb6cfdd694bfff13
+Size: 1428
+MD5sum: 6d3b02f8b1b448e40339af38c05b93b1
+SHA1: 1becf05dc4216a46d43559286da65cf135478b80
+SHA256: 13dba111bf5a633c4f616af32e990da49fc5ef68a5c50e3535ca0e9d5e0d5c2a
+SHA512: d860cb698ca3c244268773af418a6f39549b01ddbbc819efb6d6cdfd56ece1b2b8a286f201a35dba61766dbce4d5d6a4863a7fe40e11694f556a648e3d43aa56
 Homepage: https://github.com/abhackerofficial
 Description: A CLI Based Package Installer Specially Build for ABHacker's Repository.
 
