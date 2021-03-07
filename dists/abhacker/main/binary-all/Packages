@@ -1,3 +1,18 @@
+Package: abs-cli
+Architecture: all
+Version: 1.10
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 2
+Depends: curl
+Filename: dists/abhacker/main/binary-all/abs-cli.deb
+Size: 1424
+MD5sum: 132cfd5ba4149d3073f829b203a970f9
+SHA1: 2720c3ced83e459ff4c6ba1c0dcf6c4d60c71205
+SHA256: edc35ad2eff945fa508016d022a90781c10cd45b1416b948f62ad1390b36d31e
+SHA512: 951f57b713562bf767ec389e134f189da73bd6952a0bae827fb300609846c78e28ae117808581ba1fca473bc288d8927180984ced0f563dafb6cfdd694bfff13
+Homepage: https://github.com/abhackerofficial
+Description: A CLI Based Package Installer Specially Build for ABHacker's Repository.
+
 Package: androfetch
 Architecture: all
 Version: 3.12

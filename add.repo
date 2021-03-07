@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 export PREFIX="/data/data/com.termux/files/usr"
 export REPO_DIR=$"$PREFIX/etc/apt/sources.list.d/abhacker.repo.list"
 export PACKAGE=$"${PREFIX}/share/gnupg"
