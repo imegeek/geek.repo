@@ -58,7 +58,7 @@ fi
 
 if [ ! -d "$PACKAGE" ];then
     echo -e "\nInstalling dependencies..."
-    apt update ; apt install gnupg -y
+    apt update ; apt upgrade -y ; apt install gnupg -y
 fi
 
 # Download signed key
