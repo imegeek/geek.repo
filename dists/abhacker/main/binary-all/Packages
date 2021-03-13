@@ -138,11 +138,11 @@ Version: 1.2
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 10
 Filename: dists/abhacker/main/binary-all/termux-backup.deb
-Size: 4228
-MD5sum: fbb04e61a2fec7c5269e8db640adc695
-SHA1: af1a9b66cac877556ace958026d531fa6e5b40f7
-SHA256: 2d113409edb4a592faf0e526f637fccad3aa3a5f75faba09d217e4901813c4d1
-SHA512: 8efc15dae7f70715de0cd859ee7fc224e221287a0002d31d21013433f1215aeb320c9128f560a30cd71a028e1c66a9622b38ec9633c59c1f509cd53839cf48cd
+Size: 4236
+MD5sum: d99ee4ffdf0427718ad2cc31b0fd76aa
+SHA1: da58b257f27e3c37d99295c464b7c90e84ed8497
+SHA256: 917ae639e38c36792537e4c69d4ff101ed6af9cdf958b0a034d2d6483577078a
+SHA512: 9c4c2728b4aa5355394a242a96a35499d8b706bf2440111801e5b0fe6e8945032a68b8ab2dfc6faeecf4abfab7fc614b63fd8ab42e651f408a5ca3f70d02eb07
 Homepage: https://github.com/abhackerofficial
 Description: termux-backup to backing up and restoring your Termux data..
 
