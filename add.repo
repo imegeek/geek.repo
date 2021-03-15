@@ -30,6 +30,9 @@ if [ ${error} -gt "0" ];then
 printf "\n\e[91mProgram interrupted. with \e[0m‘${error}’\e[91m Code.\e[0m\n"
      printf "                          "
 printf "\e[1;92m${code[0]}"
+else
+printf "\e[91mProgram interrupted. with \e[0m‘${error}’\e[91m Code.\e[0m\n"
+   exit 0
 fi
 
 while [ $i -le ${#error} ]
