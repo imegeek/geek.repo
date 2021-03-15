@@ -17,9 +17,28 @@ echo "Sorry, but your system doesn't support !"
 exit 1
 fi
 
-# interrupter
+# interrupter management
 exit_on_signal_SIGINT () {
-   { echo -e "\n\e[91mProgram interrupted. with \e[0m‘${?}’ \e[91mCode.\n\e[0m" ;2>&1;}
+  { error=$(echo $?)
+
+    code[0]="^"
+    code[1]="~"
+
+i=0
+
+if [ ${error} -gt "0" ];then
+printf "\n\e[91mProgram interrupted. with \e[0m‘${error}’\e[91m Code.\e[0m\n"
+     printf "                          "
+printf "\e[1;92m${code[0]}"
+fi
+
+while [ $i -le ${#error} ]
+do
+  printf "${code[1]}"
+((i++))
+done
+
+printf "\e[0m\n" ;2>&1;}
    exit 0
 }
 
@@ -170,6 +189,7 @@ apt-get update
 echo -e "\e[94mInstall package  : apt install <pkg> ..."
 echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo\e[0m"
 
+# arguments management
 if [[ ${1} == "--update" || ${1} == "-u" ]];then
   if [[ ${#2} -gt "0" ]];then
  apt upgrade "${@:2}"
