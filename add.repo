@@ -17,6 +17,14 @@ echo "Sorry, but your system doesn't support !"
 exit 1
 fi
 
+# interrupter
+exit_on_signal_SIGINT () {
+   { echo -e "\n\e[91mProgram interrupted. with \e[0m‘${?}’ \e[91mCode.\n\e[0m" ;2>&1;}
+   exit 0
+}
+
+trap exit_on_signal_SIGINT SIGINT
+
 connection() {
 #wget -q --spider http://google.com
 curl -Is http://www.google.com &> /dev/null
@@ -183,7 +191,18 @@ exit
 
 elif [[ ${1} == "--remove" || ${1} == "-r" ]];then
   if [[ ${#2} -gt "0" ]];then
-apt autoremove "${@:2}"
+  apt autoremove "${@:2}"
+exit
+  fi
+
+elif [[ ${1} == "--addon" || ${1} == "-a" ]];then
+  if [[ ${2} == "http://"* || ${2} == "https://"* ]];then
+  printf "\n\e[93mGetting your Program !...\n\e[0m"
+  bash <(curl -fsSL "${2}") ${@:3}
+  echo -e "\e[93mProgram Ended with \e[0m‘${?}’ \e[93mCode.\n\e[0m"
+exit
+else
+  echo -e "\e[92mInvalid Url Address : \e[91m${2}\e[0m"
 exit
   fi
 fi
