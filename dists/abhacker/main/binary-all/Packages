@@ -51,10 +51,10 @@ Installed-Size: 16
 Depends: openssl-tool
 Filename: dists/abhacker/main/binary-all/get-secure.deb
 Size: 10252
-MD5sum: 6a86bb1d6a39fdf556a240e147cd55ae
-SHA1: 897026f0fc25e37b8596e33459cd2330bcc55cfd
-SHA256: 1c1888731a01fb42b632271cf2afc20129f681ff836e5f596bb752d1dae9622a
-SHA512: 854a1f28dc4df20b8f2b84a1d4255e20915d90b75496a508c26b6302c562fb1cc4f2648eebad80e30398f20b500bb6f3b8cc5ec828e2c3e152b0d296122349be
+MD5sum: 03bca4a31c1f7a0407944841caeec3cc
+SHA1: d1659c769e62524c89fe09d50833479030b36db3
+SHA256: e04e30812a588bebd64c194e41bb6f3c45d0e3b255c9024126658e51d905eab0
+SHA512: 8004becaba37af0ba53dedb4e6ff9be4d8824af894e9ed7ebb7beb7badbf8b001850aa2fd34fb83a872e934e6d296b8ae5e6f4d16afc139cfa651060a2eef6b0
 Homepage: https://github.com/abhackerofficial
 Description: A powerful security tool for your personal use and data, strong passwords.
 
