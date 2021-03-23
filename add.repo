@@ -11,6 +11,9 @@ export TERMUX=$(uname -o | grep -o "Android")
 export ARCH=`dpkg --print-architecture`
 export TMPDIR="${PREFIX}/tmp"
 
+W="\e[38;2;255;255;255m"
+O="\e[93m"
+
 if [[ $TERMUX != *'Android'* ]];then
 echo "Sorry, but your system doesn't support !"
 # if you're removed that lines I don't know what happens to you !
@@ -100,7 +103,7 @@ sleep 0.3
 echo -en "\033[?25l"
    printf "\r\e[93m                                                            "
 echo -en "\033[?12l\033[?25h"
-   printf "\rRetrieving informations [${ARCH}]..."
+   printf "\rRetrieving informations [${W}${ARCH}${O}]..."
 sleep 0.3
 
 grep -q "abhackerofficial@gmail.com" $PUB_DIR &> /dev/null
@@ -109,7 +112,7 @@ sleep 0.4
    echo -en "\033[?25l"
 printf "\r\e[93m                                                               "
    echo -en "\033[?12l\033[?25h"
-printf "\r\e[93mAdding Public GPG Key [${ARCH}]... "
+printf "\r\e[93mAdding Public GPG Key [${W}${ARCH}${O}]... "
    curl -fsSL https://abhackerofficial.github.io/abhacker.repo/abhacker.repo.key | apt-key add &> /dev/null &
 printf "OK"
 fi
@@ -130,12 +133,12 @@ sleep 0.4
    echo -en "\033[?25l"
 printf "\r\e[93m                                                               "
    echo -en "\033[?12l\033[?25h"
-printf "\r\e[93mAdding Public GPG Key [${ARCH}]... "
+printf "\r\e[93mAdding Public GPG Key [${W}${ARCH}${O}]... "
 curl -fsSL https://github.com/abhackerofficial/abhacker.repo/raw/master/abhacker.repo.key | cat &> ${PREFIX}/etc/raw_keys/abhacker.repo.key &
   curl -fsSL https://github.com/abhackerofficial/abhacker.repo/raw/master/abhacker.repo.key | apt-key add &> /dev/null
  printf "OK"
 else
- printf "\r\e[93mPublic GPG Key Already exists [${ARCH}]..."
+ printf "\r\e[93mPublic GPG Key Already exists [${W}${ARCH}${O}]..."
 fi
 
 aarch64_architecture()
@@ -162,9 +165,9 @@ printf "# abhacker's repository\ndeb [arch=all,x86_64] https://abhackerofficial.
 # abhacker's repository
 if [ -f "$REPO_DIR" ];then
 sleep 0.5
-printf "\r\e[93mABHacker's Repository Already exists [${ARCH}]..."
+printf "\r\e[93mABHacker's Repository Already exists [${W}${ARCH}${O}]..."
 else
-printf "\r\e[93mAdding ABHacker's Repository [${ARCH}]... "
+printf "\r\e[93mAdding ABHacker's Repository [${W}${ARCH}${O}]... "
 sleep 0.5
 printf "OK"
 case "$ARCH" in
@@ -187,7 +190,7 @@ esac
 fi
 
 sleep 0.7
-printf "\r\e[93mUpdating Termux emulator [${ARCH}]...              \n\e[0m"
+printf "\r\e[93mUpdating Termux emulator [${W}${ARCH}${O}]...              \n\e[0m"
 apt-get update
 echo -e "\e[94mInstall package  : apt install <pkg> ..."
 echo -e "GitHub help page : https://github.com/abhackerofficial/abhacker.repo\e[0m"
@@ -227,6 +230,15 @@ exit
 else
   echo -e "\e[92mInvalid Url Address : \e[91m${2}\e[0m"
 exit
+  fi
+
+elif [[ ${1} == "--eval" || ${1} == "-e" ]];then
+  if [[ ${2} == "eval"* ]];then
+  printf "\n\e[93mGetting your Program !...\n\e[0m"
+  eval ${@:3}
+  echo -e "\e[93mProgram Ended with \e[0m‘${?}’ \e[93mCode.\n\e[0m"
+else
+  echo -e "\e[92mInvalid ‘eval’ script : \e[91m${2}\e[0m"
   fi
 fi
 
