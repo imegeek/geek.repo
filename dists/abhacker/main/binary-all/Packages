@@ -80,10 +80,10 @@ Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 8
 Filename: dists/abhacker/main/binary-all/msvenom.deb
 Size: 2684
-MD5sum: b82857ed6ace2bccdc101cecabfe70cd
-SHA1: e6aad79942a72349444b91c80a538595c83421b3
-SHA256: 23fc5017854d097f2150c24868f2bbbf6a610410113c3f40c03afe2ef01f9470
-SHA512: b09ac57d1b7a3e7c0c2e3a5c4f4b9653a60521b05cc13925d3829946fef3c3ab38ec93cc137f41fb6b5408867744791d5a213c2bd562ee7cd25434dc9aa3a9ab
+MD5sum: 55611949d4d18952ab33269f4ab6863a
+SHA1: 5dbe5548b3cac480ea32565fe27cc13f4a5ba914
+SHA256: fecdc5440681276effd5aa5aa9608283ea4fd9aa95ae7d494f10f3fe9747cc0b
+SHA512: 0ee5bd1ed1a0746871ded877d5b1e9d0dbc412ad1283fbfa9b8ab12b249e699844716105167f0728823dad927a8f71c01c97a0af547580967e824a6fd84d2233
 Homepage: https://github.com/abhackerofficial
 Description: Payload generator program for android platform.
 
