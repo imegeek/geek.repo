@@ -1,0 +1,15 @@
+Package: tgbot
+Architecture: arm64
+Version: 3.0.1
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 8
+Depends: curl
+Filename: dists/abhacker/main/binary-arm64/tgbot.deb
+Size: 2244
+MD5sum: 0ec61d9297a645b3e3c9149b06e6dab7
+SHA1: 11b58f0af06129fee707163ae9423d602871bcac
+SHA256: 9195cc4e106bf61148a30c153c3c4c8bdff424f67d9745190f6f5d87aefaf88b
+SHA512: 0f779113038786f307675d5cbc723f59a4c4cac2b303b28a1b54561d5feaff901d7b1d4cb56b56ad250f6e62a5000dc1531cddd2ffdda6ef3b9384376f639f3d
+Homepage: https://github.com/abhackerofficial
+Description: tgbot is a simple Telegram Bot written in Bash that can reply to user messages, execute commands, and others cool features.
+
