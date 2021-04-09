@@ -1,5 +1,5 @@
 ## abhacker.repo
-The Termux repository of abhackerofficial.
+The official repository of abhackerofficial.
 
 > Add ABHacker's Repository via Command :
 
