@@ -117,6 +117,21 @@ SHA512: c61a545d923d4fb56dbfa4974a705b68e4d410f0d4aee7d070784a96170191e6219a651e
 Homepage: https://github.com/abhackerofficial
 Description: osmux is a installer of types of linux distro.
 
+Package: psfconsole
+Architecture: all
+Version: 4.4
+Maintainer: ABHacker Official <abhackerofficial>
+Installed-Size: 202007
+Depends: subversion, php, git, jq, curl
+Filename: dists/abhacker/main/binary-all/psfconsole.deb
+Size: 876
+MD5sum: 16784812c00d478539ca88821746c7d4
+SHA1: c102954efb19f260966de32473a6a363a1930265
+SHA256: 2bc8d16ec57429e7e484f29dab5b128e3ab6e795b5fe155bdca6bfd2181de457
+SHA512: 19b56d05e51b8ac98064c150efbe084db77bb43cb9bd43f42f25dc58b7747345b5ec7a231d7efdad29e64395b60a778cff559da7850935ba07cc254941a586cf
+Homepage: https://github.com/abhackerofficial
+Description: Phising-Framework is a bundle of phishing sites.
+
 Package: tbackup
 Architecture: all
 Version: 1.5.2

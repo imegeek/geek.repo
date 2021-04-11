@@ -17,6 +17,7 @@ The official repository of abhackerofficial.
 + [msvenom](https://github.com/abhackerofficial/msvenom)
 + [ngrok-server](https://github.com/abhackerofficial/ngrok-server)
 + [osmux](https://github.com/abhackerofficial/osmux)
++ [psfconsole](https://github.com/abhackerofficial/phising-framework)
 + [ruby 2.7.2](https://github.com/ruby/ruby)
 + [tgbot](https://github.com/abhackerofficial/tgbot)
 + [tbackup](https://github.com/abhackerofficial/tbackup)
