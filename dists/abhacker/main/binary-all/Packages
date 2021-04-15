@@ -191,3 +191,18 @@ SHA512: 6d4d821cff125169e74a37b9794364360266d8a18561de6c317e9a64e1a3c8e8572288ce
 Homepage: https://github.com/abhackerofficial
 Description: Theme-Engine is usually made for modification & customization, so you can make trunks even more Colourful and better your Termux.
 
+Package: postgis-plugin
+Architecture: all
+Version: 3.1.0.0
+Maintainer: Suhan Paradkar <suhan-paradkar>
+Installed-Size:null
+Depends: build-essential, curl, libiconv, postgresql, libxml2, libsqlite, make, check, readline, proj, libgeos, json-c, libprotobuf-c, automake
+Filename: dists/abhacker/main/binary-all/postgis-plugin_3.1.0.0_all.deb
+Size: 9468608
+MD5sum: 0fc24f3fb2e5d7f9edbb95ef5dfc315a
+SHA1: 11a87840be30b79ca5fd736266498e4d2d090ae6
+SHA256: 2fe142b2d5dee7bbac53dd84b7815f7f1be1d675873d1952c394ada6bc3628cd
+SHA512: 8b47925394b2e41cdc9c9509014ff796d8f7a46f19bfeaeb362f891b6c67d9c5a76c61a054040f87814075cd1653daa15f214d83c60ee3b3fbe006f383ed7f12
+Homepage: https://github.com/suhan-paradkar
+Description: This package installs postgis prostgresql plugin into termux
+
