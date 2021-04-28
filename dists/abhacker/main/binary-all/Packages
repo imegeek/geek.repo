@@ -119,18 +119,18 @@ Description: osmux is a installer of types of linux distro.
 
 Package: psfconsole
 Architecture: all
-Version: 4.4
+Version: 6.5.7
 Maintainer: ABHacker Official <abhackerofficial>
-Installed-Size: 202007
-Depends: subversion, php, git, jq, curl
+Installed-Size: 192982
+Depends: subversion, php, git, jq, curl, python
 Filename: dists/abhacker/main/binary-all/psfconsole.deb
-Size: 876
-MD5sum: 16784812c00d478539ca88821746c7d4
-SHA1: c102954efb19f260966de32473a6a363a1930265
-SHA256: 2bc8d16ec57429e7e484f29dab5b128e3ab6e795b5fe155bdca6bfd2181de457
-SHA512: 19b56d05e51b8ac98064c150efbe084db77bb43cb9bd43f42f25dc58b7747345b5ec7a231d7efdad29e64395b60a778cff559da7850935ba07cc254941a586cf
+Size: 912
+MD5sum: 6ffeb18ec9f289e66c919a1fc85ff7ba
+SHA1: 12179c7769883824839e318d901e58c6b0ae9a41
+SHA256: 5e2ed225065f15bcbdd3465e41bf70a748698f80de0650a403a7db40b99e929d
+SHA512: 6fa950665ff681efe10bda6deab2e93ac271ef60b16b82a54a7df4e28774dea869517907d136e941f19e8bd561ab439c99258d05035990c32b8c4792a84ccbe2
 Homepage: https://github.com/abhackerofficial
-Description: Phising-Framework is a bundle of phishing sites.
+Description: Pentesting Framework is a bundle of penetration testing tools, Includes - security, pentesting, hacking and many more.
 
 Package: tbackup
 Architecture: all
