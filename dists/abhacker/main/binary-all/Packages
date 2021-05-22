@@ -60,16 +60,16 @@ Description: A powerful security tool for your personal use and data, strong pas
 
 Package: metasploit
 Architecture: all
-Version: 6.0.42
+Version: 6.0.45
 Maintainer: ABHacker Official <abhackerofficial>
 Installed-Size: 100
 Depends: apr, apr-util, autoconf, bison, clang, coreutils, curl, findutils, git, libffi, libgmp, libiconv, libpcap, libsqlite, libtool, libxml2, libxslt, make, ncurses, ncurses-utils, openssl, pkg-config, postgresql, readline, resolv-conf, ruby (>= 2.7.0), tar, termux-elf-cleaner, termux-tools, unzip, wget, zip, zlib
 Filename: dists/abhacker/main/binary-all/metasploit.deb
-Size: 2872
-MD5sum: 2547dee7c11130f430d3eb572d8ea853
-SHA1: 7c70a8111d9ec75cd3a41c0141e5be22a9f232a4
-SHA256: e9da617853ee582660e77e80aaf6642fa51fe56bc6f426ede4a1ce3818807a55
-SHA512: b0651af18a5139cd3a9860f65ca355358ad654242d598624acff87b6080e616f206e2dbeeddf6e80eb31a0efdb8f74928177dd2555b7711725d84a2be1f75b73
+Size: 2868
+MD5sum: e74c9714b0be780f92d42eb6bac245ac
+SHA1: 0fa37dfca62643c54f21a4a40f225863381f6f3a
+SHA256: 7ebf1fff7a83af366b99aaa66cdf35dc6ab88c23334168bbf8287907d4effa59
+SHA512: 02e96d7ef96959234f08564748b3aa6a0f78727fb81e93738bd975b6ed6098e3b6b70dbe48da142160756c409f830e4860a1962782231b772a3684a1263b5b33
 Homepage: https://www.metasploit.com/
 Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
 
