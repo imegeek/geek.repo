@@ -134,16 +134,16 @@ Description: Pentesting Framework is a bundle of penetration testing tools, Incl
 
 Package: tbackup
 Architecture: all
-Version: 1.5.2
+Version: 1.6.1
 Maintainer: ABHacker Official <abhackerofficial>
-Installed-Size: 5
+Installed-Size: 6
 Depends: tar
 Filename: dists/abhacker/main/binary-all/tbackup.deb
-Size: 2476
-MD5sum: c52433513c0b9240b7c38b6c399549bf
-SHA1: 2a8ef27c25bab5b091da739927bbc0f0d14dd009
-SHA256: 928722ed12a9b45fa2b7f47dbcae1df7859db9c6554dd3066132a363c026f3e5
-SHA512: f483960aec2f647753a294d8c3c856be8a314ce8e8c5cf5976651f829dcebb9f7d90906c37fa5a5b125a858933f6c35c0cbaed0ae24563b296c79cbacd784928
+Size: 2600
+MD5sum: 18cf20f537acda8b7cc746ce5be98f20
+SHA1: 55713d221514ff391dec0b7b543571a703c69bef
+SHA256: 070193bc3e71e9b0bc6c728e79c10934bbed9195ddbee86921400b2b49dc8aa6
+SHA512: 9f929c5e31224a482eaa464c09cfb80703f7a83036aee91156a48f2649367c7414b788c8398c2467ec88840445dee83c65c268ef9a89846c78692396c7ae7015
 Homepage: https://github.com/abhackerofficial
 Description: A Daily Termux Backup Script.
 
