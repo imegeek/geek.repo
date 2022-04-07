@@ -58,6 +58,21 @@ SHA512: 8004becaba37af0ba53dedb4e6ff9be4d8824af894e9ed7ebb7beb7badbf8b001850aa2f
 Homepage: https://github.com/abhackerofficial
 Description: A powerful security tool for your personal use and data, strong passwords.
 
+Package: lemon
+Architecture: all
+Version: 2.1-3
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 28360
+Depends: nodejs
+Filename: dists/abhacker/main/binary-all/lemon_2.1-3-all.deb
+Size: 18813272
+MD5sum: a51dd14e997d219f64968a0b2c34de8f
+SHA1: 077e89dd0939f6d90696752decbfc68f355435ec
+SHA256: 895475f6407b84aad9387100e22f9a7e562f6e0654c73837b0fa698346c3d1f6
+SHA512: 4cd697e7a75afd0594f7c6a92186a512b86c186f6ab22c6c6d22c6f308129f51aa870ccdd92b3d811fd125d3ddb2a9d593eb6391524c199951a2e67404c01952
+Homepage: https://github.com/D3VL/L3MON
+Description: Remote Android Managment Suite
+
 Package: metasploit
 Architecture: all
 Version: 6.0.45

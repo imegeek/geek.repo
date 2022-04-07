@@ -13,6 +13,7 @@ The official repository of abhackerofficial.
 + [ascii-banner](https://github.com/abhackerofficial/ascii-banner)
 + [abs-cli](https://github.com/abhackerofficial/abhacker.repo)
 + [get-secure](https://github.com/abhackerofficial/get-secure)
++ [lemon](https://github.com/abhackerofficial/abhacker.repo)
 + [metasploit](https://github.com/rapid7/metasploit-framework)
 + [msvenom](https://github.com/abhackerofficial/msvenom)
 + [ngrok-server](https://github.com/abhackerofficial/ngrok-server)
